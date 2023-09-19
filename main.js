@@ -45,7 +45,7 @@ myOwnObject.firstName = 'Sarah';
 myOwnObject.lastName = 'Eatherly'
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
-myOwnObject.fullName = 'Sarah Eatherly'
+myOwnObject.fullName = myOwnObject.firstName + ' ' + myOwnObject.lastName
 // Add an `age` property and set it to a number.
 
 myOwnObject.age = 39;
